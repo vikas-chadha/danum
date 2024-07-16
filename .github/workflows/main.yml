@@ -1,0 +1,26 @@
+name: push to server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH key and connect
+      run: |
+        # Add your deployment commands here
+        echo "${{ secrets.EC2_SSH_KEY_112_188 }}" > ec2_key.pem
+        chmod 400 ec2_key.pem
+        ssh -o StrictHostKeyChecking=no -i ec2_key.pem redhat@112.196.72.188 "
+        cd /var/www/html/danum-python
+        sudo git add .
+        sudo git commit -m "serverchanges"
+        sudo git pull origin master 
+        pm2 restart 31"
