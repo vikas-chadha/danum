@@ -39,9 +39,9 @@ secrets.json
 local_settings.py
 
 # Media and static files
-media/
-staticfiles/
-static/
+# media/
+# staticfiles/
+# static/
 
 # Node.js dependencies
 node_modules/

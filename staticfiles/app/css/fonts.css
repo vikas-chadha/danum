@@ -1,0 +1,29 @@
+@font-face {
+    font-family: clashDisplaybold;
+    src: url(../fonts/ClashDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: clashDisplayextralight;
+    src: url(../fonts/ClashDisplay-Extralight.ttf);
+}
+
+@font-face {
+    font-family: clashDisplaylight;
+    src: url(../fonts/ClashDisplay-Light.ttf);
+}
+
+@font-face {
+    font-family: clashDisplaymedium;
+    src: url(../fonts/ClashDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: clashDisplayregular;
+    src: url(../fonts/ClashDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: clashDisplay;
+    src: url(../fonts/ClashDisplay-Variable.ttf);
+}

@@ -1,0 +1,43 @@
+:root {
+    /* colours */
+    --primary: #253294;
+    --secondary: #FFC450;
+    --darkblue: #101630;
+    --blue: #3A55E0;
+    --blue2: #27359B;
+    --white: #fff;
+    --dark: #211E29;
+    --dark2: #101630;
+    --pink: #F1CEC9;
+    --pink1: #BF9892;
+    --pink2: #B38882;
+    --brown: #A06960;
+
+    /* positions */
+    --relative: relative;
+    --absolute: absolute;
+    --fixed: fixed;
+    --static: static;
+
+    /* alignments */
+    --left: left;
+    --right: right;
+    --center: center;
+    --between: space-between;
+    --around: space-around;
+
+    /* display */
+    --block: block;
+    --inline: inline;
+    --inlineBlock: inline-block;
+    --flex: flex;
+    --inlineFlex: inline-flex;
+    --none: none;
+
+    /* typography */
+    --uppercase: uppercase;
+    --capitalize: capitalize;
+    --lowercase: lowercase;
+    --semibold: 600;
+    --bold: 700;
+}
