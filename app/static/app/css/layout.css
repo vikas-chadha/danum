@@ -321,7 +321,7 @@ a {
     font-size: 18px;
 }
 .services__BottomContent.firstSection p {
-    font-weight: var(--semibold);
+    /* font-weight: var(--semibold); */
     font-size: 24px;
     font-family: clashDisplaymedium;
 }
@@ -585,6 +585,9 @@ a {
 .collpase .accordion-collapse .accordion-body .left p {
     color: var(--pink);
     font-size: 18px;
+}
+.collpase .accordion-collapse .accordion-body .left p.cloudText {
+    margin-bottom: 100px;
 }
 .collpase .accordion-collapse .accordion-body .left a {
     color: var(--white);
@@ -1071,6 +1074,9 @@ min-width: 215px;
     }
     .collpase .accordion{
         padding: 0px;
+    }
+    .collpase .accordion-collapse .accordion-body .left p.cloudText {
+        margin-bottom: 20px;
     }
 
 .footerBottom{
