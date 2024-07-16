@@ -1,0 +1,122 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.db
+*.sqlite3
+*.pyo
+*.pyd
+*.so
+*.db
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+**/migrations/
+
+# Secrets
+.env
+secrets.json
+
+# MacOS-specific files
+.DS_Store
+
+# Backup files
+*.bak
+
+# If you use SQLite, it might be a good idea to ignore the database file
+*.sqlite3
+
+# Local environment settings
+local_settings.py
+
+# Media and static files
+media/
+staticfiles/
+static/
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Python virtual environments
+venv/
+ENV/
+env/
+.venv/
+.pip/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode specific files
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Test and coverage reports
+test-results/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Backup files
+*.bak
+*.swp
+
+# Temporary files
+*.tmp
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PyCharm specific files
+.idea/
+
+# Sphinx documentation
+docs/_build/
+
+# pipenv
+Pipfile.lock
+
+# Celery
+celerybeat-schedule
+
+# Translations
+*.mo
+*.pot
+
+# Local project settings
+local_settings.py
+.env

@@ -1,0 +1,852 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Danum Group - Home</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="{% static 'app/images/favicon.ico' %}" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="{% static 'app/css/layout.css' %}" />
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <!-- header starts -->
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static 'app/images/logo.svg' %}" alt="Danum Group Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <div class="navwithicons">
+
+
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Solutions</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Technologies</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Get In Touch</a>
+                            </li>
+                        </div>
+                        <div class="navfooter">
+                            <a href=""><img src="{% static 'app/images/facebook.svg' %}" alt="facebook"></a>
+                            <a href=""><img src="{% static 'app/images/twitter.svg' %}" alt="twitter"></a>
+                            <a href=""><img src="{% static 'app/images/youtube.svg' %}" alt="youtube"></a>
+                            <a href=""><img src="{% static 'app/images/linkedin.svg' %}" alt="linkedin"></a>
+                        </div>
+
+                    </ul>
+                    <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            </ul> -->
+                </div>
+            </div>
+        </nav>
+        <!-- header ends -->
+
+        <!-- hero section starts -->
+        <section class="heroSection">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-9">
+                        <div class="heroSection__Content">
+                            <h1>Your <span>Technology</span> Partner</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3">
+                        <div class="heroSection__Img">
+                            <img src="{% static 'app/images/lines.svg' %}" class="img-fluid" alt="Lines Shape" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottomSection">
+                    <div class="row">
+                        <div class="col-xl-6 order2">
+                            <div class="heroSection__Contact">
+                                <p>We are an unordinary software company for web development, consulting and design.</p>
+                                <img class="divider img-fluid" src="{% static 'app/images/divider.svg' %}" alt="Divider" />
+
+                                <div class="heroBtns">
+                                    <a href="" class="contactBtn">GET IN TOUCH <img src="{% static 'app/images/arrowYellow.svg' %}"
+                                            alt="Arrow Yellow" /></a>
+                                    <a href="">EXPLORE SERVICES</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-xl-6 order1">
+                            <div class="heroSection__RightImg">
+                                <img src="{% static 'app/images/heroSectionImg.png' %}" alt="Right Image" class="img-fluid" />
+                                <span class="heroShape">
+                                    <img src="{% static 'app/images/heroShape.png' %}" alt="shape" class="img-fluid" />
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero section ends -->
+
+
+        <!-- services section starts -->
+        <section class="services">
+            <span class="shapeImg">
+                <img src="{% static 'app/images/serviceShapeImg.png' %}" alt="Shape" />
+            </span>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6">
+
+                        <div class="services__Content">
+                            <span class="sideText">WHAT WE DO <img src="{% static 'app/images/sideshape.svg' %}"
+                                    alt="Side Shape" /></span>
+                            <h2 class="commonHeading">Cutting-Edge <span>Services</span></h2>
+                            <p>As a prominent provider of cutting-edge technological solutions, we specialize in a range
+                                of services including. </p>
+
+                            <p>Our dedicated team is highly proficient in conducting comprehensive infrastructure
+                                assessments, ensuring that your organization's business needs are not only addressed but
+                                surpassed with innovative and tailored solutions.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="services__Img">
+                            <img src="{% static 'app/images/serviceImg.png' %}" alt="Services Image" />
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="serviceslist">
+
+
+                            <div class="services__List">
+                                <a class="service1" href="">Cloud Migrations</a>
+                                <a class="service2" href="">Network Automation & Design</a>
+                                <a class="service3" href="">Network Optimization</a>
+                                <a class="service4" href="">Security</a>
+                            </div>
+
+                            <div class="services__List">
+                                <a class="service5" href="">Wireless Solutions</a>
+                                <a class="service6" href="">Cisco Unified Communications</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottomSectionService">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <div class="services__BottomContent firstSection">
+                                <p>We recognize the significance of efficient communication services across various
+                                    industries </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-5">
+                            <div class="services__BottomContent">
+                                <p>Which is why we are dedicated to designing advanced networking systems and
+                                    infrastructures that cater to the needs of both large enterprises and emerging
+                                    startups. </p>
+                                <p>Our meticulous attention to detail and dedicated project execution have earned us a
+                                    reputation for delivering high-quality services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="services__BottomContent">
+                            <a href="">Learn More 
+                                <span>
+                                    <svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32 13.3925V14.7725H1.5C1.22 14.7725 1 14.5525 1 14.2725V10.2725C1 9.9925 1.22 9.7725 1.5 9.7725H22.83L21.21 9.1425C20.93 9.0325 20.68 8.8725 20.46 8.6525L16.46 4.6525C16.27 4.4525 16.27 4.1325 16.47 3.9425L19.32 1.1425C19.51 0.9525 19.83 0.9525 20.02 1.1425L31.83 12.9725C31.94 13.0825 32 13.2325 32 13.3925Z" fill="#3A55E0"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="serviceFullImg">
+            <img src="{% static 'app/images/serviceFullImg.png' %}" alt="Services" />
+        </div>
+        <!-- services section ends -->
+
+
+        <!-- solutions section starts -->
+        <section class="solutionSection">
+            <span class="solutionText">CAPABILITIES <img src="{% static 'app/images/sideshape.svg' %}" alt="Shape" /></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="solutionSection__Content">
+                            <span>
+                                <img src="{% static 'app/images/solutionsShape.svg' %}" />
+                            </span>
+                            <h2 class="commonHeading"><span>Innovative</span> solutions</h2>
+                            <p>With years of experience, we have refined our service portfolio, providing management
+                                solutions that few other companies can match.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="solutionSection__BottomContent">
+                            <p>We specialize in setting up entire systems, integrating IT giants' software, alongside
+                                scalable Cisco collaboration products for voice identification and compatibility with
+                                existing networks. </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="solutionSection__BottomContent">
+                            <p>In essence, we are committed to helping you create and implement solutions for a positive
+                                return on investment for your enterprise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- solutions section ends -->
+
+
+        <!-- collapse section starts-->
+        <section class="collpase">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Consulting <span><img src="{% static 'app/images/consultingImg.png' %}"
+                                                alt="consulting" /></span>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="left">
+                                                    <p>Our specialty is our unfailing ability to tackle any IT related
+                                                        issue with which we are faced. This means managing in-house
+                                                        services and technologies so that our clients can focus on their
+                                                        core business without worry. </p>
+                                                    <a href="">Learn More <img
+                                                            src="{% static 'app/images/arrowYellow.svg' %}" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="right">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/settingIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Process <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/desktopicon.svg' %}" />
+                                                                </span>
+                                                                <p>IT Infrastructure<br /> Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/dataIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Data <br />Automation </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/securityIcon.svg' %}" /></span>
+                                                                <p>Security <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/customizeIcon.svg' %}" /></span>
+                                                                <p>Customized <br />Solutions</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/reportIcon.svg' %}" /></span>
+                                                                <p>Report <br />Generation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        AI & Automation <span><img src="{% static 'app/images/ai-automationImage.png' %}"
+                                                alt="consulting" /></span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="left">
+                                                    <p>Our specialty is our unfailing ability to tackle any IT related
+                                                        issue with which we are faced. This means managing in-house
+                                                        services and technologies so that our clients can focus on their
+                                                        core business without worry. </p>
+                                                    <a href="">Learn More <img
+                                                            src="{% static 'app/images/arrowYellow.svg' %}" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="right">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/settingIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Process <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/desktopicon.svg' %}" />
+                                                                </span>
+                                                                <p>IT Infrastructure<br /> Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/dataIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Data <br />Automation </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/securityIcon.svg' %}" /></span>
+                                                                <p>Security <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/customizeIcon.svg' %}" /></span>
+                                                                <p>Customized <br />Solutions</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/reportIcon.svg' %}" /></span>
+                                                                <p>Report <br />Generation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Collaboration <span><img src="{% static 'app/images/collaborationImg.png' %}" /></span>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="left">
+                                                    <p>Our specialty is our unfailing ability to tackle any IT related
+                                                        issue with which we are faced. This means managing in-house
+                                                        services and technologies so that our clients can focus on their
+                                                        core business without worry. </p>
+                                                    <a href="">Learn More <img
+                                                            src="{% static 'app/images/arrowYellow.svg' %}" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="right">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/settingIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Process <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/desktopicon.svg' %}" />
+                                                                </span>
+                                                                <p>IT Infrastructure<br /> Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/dataIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Data <br />Automation </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/securityIcon.svg' %}" /></span>
+                                                                <p>Security <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/customizeIcon.svg' %}" /></span>
+                                                                <p>Customized <br />Solutions</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/reportIcon.svg' %}" /></span>
+                                                                <p>Report <br />Generation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Cloud Services <span><img src="{% static 'app/images/cloudService.png' %}" /></span>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="left">
+                                                    <p>Our specialty is our unfailing ability to tackle any IT related
+                                                        issue with which we are faced. This means managing in-house
+                                                        services and technologies so that our clients can focus on their
+                                                        core business without worry. </p>
+                                                    <a href="">Learn More <img
+                                                            src="{% static 'app/images/arrowYellow.svg' %}" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="right">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/settingIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Process <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/desktopicon.svg' %}" />
+                                                                </span>
+                                                                <p>IT Infrastructure<br /> Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/dataIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Data <br />Automation </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/securityIcon.svg' %}" /></span>
+                                                                <p>Security <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/customizeIcon.svg' %}" /></span>
+                                                                <p>Customized <br />Solutions</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/reportIcon.svg' %}" /></span>
+                                                                <p>Report <br />Generation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Software & Mobile App Development <span><img
+                                                src="{% static 'app/images/softwareDev.png' %}" /></span>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="left">
+                                                    <p>Our specialty is our unfailing ability to tackle any IT related
+                                                        issue with which we are faced. This means managing in-house
+                                                        services and technologies so that our clients can focus on their
+                                                        core business without worry. </p>
+                                                    <a href="">Learn More <img
+                                                            src="{% static 'app/images/arrowYellow.svg' %}" /></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="right">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/settingIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Process <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span>
+                                                                    <img src="{% static 'app/images/desktopicon.svg' %}" />
+                                                                </span>
+                                                                <p>IT Infrastructure<br /> Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/dataIcon.svg' %}" />
+                                                                </span>
+                                                                <p>Data <br />Automation </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/securityIcon.svg' %}" /></span>
+                                                                <p>Security <br />Automation</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img
+                                                                        src="{% static 'app/images/customizeIcon.svg' %}" /></span>
+                                                                <p>Customized <br />Solutions</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4 col-6">
+                                                            <div class="rightCard">
+                                                                <span><img src="{% static 'app/images/reportIcon.svg' %}" /></span>
+                                                                <p>Report <br />Generation</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- collpase section edns -->
+
+        <!-- testimonial starts -->
+        <!-- <section class="testimonial">
+        <div class="testimonialText">testimonials <img src="assets/images/sideshape.svg" alt="Shape" /></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testimonial__Content">
+                        <h2 class="commonHeading text-center"><span>WHAT</span> OUR CLIENTS <span>SAY</span></h2>
+
+                        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="testimonial__Img">
+                                            <img src="assets/images/testimonialImg.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <div class="testimonial__Text">
+                                            <div class="message">
+                                                <p>Enim sed ultrices dictum sit fermentum tristique sed. Pharetra urna dapibus dui leo praesent egestas accumsan enim tincidunt. Pellentesque tincidunt morbi vitae ornare felis turpis. Sed netus quis consectetur eget viverra faucibus nisi. Nec quis pretium ultricies morbi.</p>
+                                            </div>
+
+                                            <h4>Zoe Solis</h4>
+                                            <h5>Director of Strategy-F7Media</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="testimonial__Img">
+                                            <img src="assets/images/testimonialImg.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <div class="testimonial__Text">
+                                            <div class="message">
+                                                <p>Enim sed ultrices dictum sit fermentum tristique sed. Pharetra urna dapibus dui leo praesent egestas accumsan enim tincidunt. Pellentesque tincidunt morbi vitae ornare felis turpis. Sed netus quis consectetur eget viverra faucibus nisi. Nec quis pretium ultricies morbi.</p>
+                                            </div>
+
+                                            <h4>Zoe Solis</h4>
+                                            <h5>Director of Strategy-F7Media</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-xl-4">
+                                        <div class="testimonial__Img">
+                                            <img src="assets/images/testimonialImg.png" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-8">
+                                        <div class="testimonial__Text">
+                                            <div class="message">
+                                                <p>Enim sed ultrices dictum sit fermentum tristique sed. Pharetra urna dapibus dui leo praesent egestas accumsan enim tincidunt. Pellentesque tincidunt morbi vitae ornare felis turpis. Sed netus quis consectetur eget viverra faucibus nisi. Nec quis pretium ultricies morbi.</p>
+                                            </div>
+
+                                            <h4>Zoe Solis</h4>
+                                            <h5>Director of Strategy-F7Media</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                              <img alt="left arrow" src="assets/images/leftDarkArrow.svg" />
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                              
+                              <img alt="left arrow" src="assets/images/blueArrow.svg" />
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+        <!-- testimonial ends -->
+
+
+        <div class="partners">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <span>
+                            <img src="{% static 'app/images/cisco.svg' %}" alt="cisco" />
+                        </span>
+                    </div>
+                    <div class="col-lg-3">
+                        <span>
+                            <img src="{% static 'app/images/mircosoft.svg' %}" alt="mircosoft" />
+                        </span>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <span>
+                            <img src="{% static 'app/images/aws.svg' %}" alt="aws" />
+                        </span>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <span>
+                            <img src="{% static 'app/images/digitalOcean.svg' %}" alt="digitalOcean" />
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact starts -->
+        <section class="contact">
+            <div class="container-fluid">
+                <div class="contactInner">
+                    <div class="row">
+                        <div class="col-xl-5 col-md-6">
+                            <div class="contact__Box">
+                                <h2><span>GOT ANY</span> QUESTIONS?</h2>
+                                <div class="text-center">
+                                    <img src="{% static 'app/images/envelopeIcon.svg' %}" alt="Envelope" />
+                                </div>
+                                <p class="text-center"><a href="mailto:info@danumgroup.com">info@danumgroup.com</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-md-6">
+                            <div class="contact__Form">
+                                <p>If you have some questions you can send us a message and we will respond to you as
+                                    soon as posible.</p>
+
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" placeholder="Name" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email address"
+                                            required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="email" placeholder="Your message"
+                                            required>
+                                    </div>
+
+                                    <div class="btnSection text-end">
+                                        <button type="submit" class="btn">Send message <img
+                                                src="{% static 'app/images/blueArrow.svg' %}" alt="arrow" /></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact ends -->
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="footerInner">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <div class="footer__Logo">
+                                <img class="iconLogo img-fluid" src="{% static 'app/images/logoIcon.svg' %}" alt="Logo" />
+                                <span>
+                                    <img src="{% static 'app/images/logogroupImg.svg' %}" class="img-fluid" alt="Logo" />
+                                    <p>All rights reserved - 2024</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="footer__Link">
+                                <a href="">Home</a>
+                                <a href="">About Us</a>
+                                <a href="">Solutions</a>
+                                <a href="">Technologies</a>
+                                <a href="">Services</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footerBottom">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="footerBottom__Links">
+                                <a href="">Privacy Policy</a>
+                                <a href="">Cookies</a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="footerBottom__Social">
+                                <p>Follow us</p>
+                                <a href="#"><img src="{% static 'app/images/facebook.svg' %}" alt="Facebook" /></a>
+                                <a href="#"><img src="{% static 'app/images/twitter.svg' %}" alt="Twitter" /></a>
+                                <a href="#"><img src="{% static 'app/images/youtube.svg' %}" alt="Youtube" /></a>
+                                <a href="#"><img src="{% static 'app/images/linkedin.svg' %}" alt="Linkedin" /></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+
+
+    </div>
+
+
+    <!-- js files -->
+    <script src="{% static 'app/js/jquery.min.js' %}"></script>
+    <script src="{% static 'app/js/bootstrap.min.js' %}"></script>
+</body>
+
+</html>
