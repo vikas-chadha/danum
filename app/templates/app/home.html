@@ -38,22 +38,22 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">About Us</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Solutions</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Technologies</a>
+                                <a class="nav-link" href="#solutions">Solutions</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#technologies">Technologies</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Get In Touch</a>
+                                <a class="nav-link" href="#contact">Get In Touch</a>
                             </li>
                         </div>
                         <div class="navfooter">
@@ -120,7 +120,7 @@
 
 
         <!-- services section starts -->
-        <section class="services">
+        <section class="services" id="services">
             <span class="shapeImg">
                 <img src="{% static 'app/images/serviceShapeImg.png' %}" alt="Shape" />
             </span>
@@ -205,7 +205,7 @@
 
 
         <!-- solutions section starts -->
-        <section class="solutionSection">
+        <section class="solutionSection" id="solutions">
             <span class="solutionText">CAPABILITIES <img src="{% static 'app/images/sideshape.svg' %}" alt="Shape" /></span>
             <div class="container">
                 <div class="row">
@@ -239,7 +239,7 @@
 
 
         <!-- collapse section starts-->
-        <section class="collpase">
+        <section class="collpase" id="technologies">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-12">
@@ -709,7 +709,7 @@
         </div>
 
         <!-- contact starts -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container-fluid">
                 <div class="contactInner">
                     <div class="row">
