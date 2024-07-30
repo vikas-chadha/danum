@@ -468,6 +468,7 @@ a {
     background-color: var(--primary);
     box-shadow: none;
     margin-bottom: 10px;
+    color: var(--white);
 }
 .contact .contact__Form .form-group .form-control::-webkit-input-placeholder {
     color: var(--white);
