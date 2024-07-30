@@ -120,14 +120,16 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = '/var/www/danumgroup.com/static'
+
 
 # print(STATIC_ROOT)
-
+STATICFILES = [BASE_DIR / 'static']
 # # Additional locations of static files
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'app', 'static'),
-]
+# STATICFILES_DIRS = [
+    # os.path.join(BASE_DIR, 'app', 'static'),
+# ]
 # print(STATICFILES_DIRS)
 
 # Default primary key field type
