@@ -1,8 +1,8 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-@import url(bootstrap.min.css);
-@import url(variables.css);
-@import url(fonts.css);
+@import url("bootstrap.min.edf0779261db.css");
+@import url("variables.e95f75fae455.css");
+@import url("fonts.21c66b9e6359.css");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 
 body {
@@ -238,62 +238,62 @@ a {
     color: var(--pink);
 }
 .services__List a.service1 {
-    background-image: url(../images/service1White.png);
+    background-image: url("../images/service1White.17bfbee9f453.png");
     background-position: center;
     width: 320px;
 }
 .services__List a.service1:hover {
-    background-image: url(../images/service1Blue.png);
+    background-image: url("../images/service1Blue.ad736ce4178e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service2 {
-    background-image: url(../images/service2White.png);
+    background-image: url("../images/service2White.f20de4f47f4c.png");
     background-position: center;
     width: 480px;
 }
 .services__List a.service2:hover {
-    background-image: url(../images/service2Blue.png);
+    background-image: url("../images/service2Blue.c51508ef3b7e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service3 {
-    background-image: url(../images/service3White.png);
+    background-image: url("../images/service3White.9a6c41021207.png");
     background-position: center;
     width: 390px;
 }
 .services__List a.service3:hover {
-    background-image: url(../images/service3Blue.png);
+    background-image: url("../images/service3Blue.09d29c1851b2.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service4 {
-    background-image: url(../images/service4White.png);
+    background-image: url("../images/service4White.a8d68d8fb6c0.png");
     background-position: center;
     width: 230px;
 }
 .services__List a.service4:hover {
-    background-image: url(../images/service4Blue.png);
+    background-image: url("../images/service4Blue.3966ccebe87c.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service5 {
-    background-image: url(../images/service1White.png);
+    background-image: url("../images/service1White.17bfbee9f453.png");
     background-position: center;
     width: 320px;
 }
 .services__List a.service5:hover {
-    background-image: url(../images/service1Blue.png);
+    background-image: url("../images/service1Blue.ad736ce4178e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service6 {
-    background-image: url(../images/service2White.png);
+    background-image: url("../images/service2White.f20de4f47f4c.png");
     background-position: center;
     width: 480px;
 }
 .services__List a.service6:hover {
-    background-image: url(../images/service2Blue.png);
+    background-image: url("../images/service2Blue.c51508ef3b7e.png");
     background-position: center;
     color: var(--white);
 }
@@ -329,7 +329,7 @@ a {
     position: relative;
     top: -40px;
     height: 700px;
-    background-image: url(../images/serviceFullImg.png);
+    background-image: url("../images/serviceFullImg.afc94b131d33.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -528,7 +528,7 @@ a {
 .collpase .accordion-item .accordion-header .accordion-button.collapsed::after {
     position: absolute;
     content: "";
-    background-image: url(../images/plusIcon.svg);
+    background-image: url("../images/plusIcon.7f9c44fea3fc.svg");
     background-repeat: no-repeat;
     background-size: 25px;
     width: 30px;
@@ -536,7 +536,7 @@ a {
     right: 30px;
 }
 .collpase .accordion-item .accordion-header .accordion-button::after {
-    background-image: url(../images/minusIcon.svg);
+    background-image: url("../images/minusIcon.004abf92f43a.svg");
     position: var(--absolute);
     right: 30px;
 }
@@ -557,7 +557,7 @@ a {
     padding: 0 30px 0;
 }
 .collpase .accordion-collapse .accordion-body {
-    background-image: url(../images/reportingInnerImg.jpeg);
+    background-image: url("../images/reportingInnerImg.e661a80ef93d.jpeg");
     /* background-color: var(--primary); */
     /* background-blend-mode: darken; */
     background-size: cover;
@@ -706,15 +706,15 @@ a {
 /* footer ends */
 
 
-.modal.right::-webkit-scrollbar, .modal.right .modal-dialog .modal-content .modal-body .inner::-webkit-scrollbar {
+.modal.right::-webkit-scrollbar {
     width: 6px;
 }
 
-.modal.right::-webkit-scrollbar-track, .modal.right .modal-dialog .modal-content .modal-body .inner::-webkit-scrollbar {
+.modal.right::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-.modal.right::-webkit-scrollbar-thumb, .modal.right .modal-dialog .modal-content .modal-body .inner::-webkit-scrollbar {
+.modal.right::-webkit-scrollbar-thumb {
     background-color: var(--primary);
 }
 .modal.right .modal-dialog {
@@ -727,14 +727,6 @@ a {
     opacity: 1;
     box-shadow: none;
     background-image: none;
-    position: absolute;
-    background-color: #FFC450;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 0;
 }
 .modal.right .modal-dialog .modal-content {
     border-radius: 40px 0 0 40px;
@@ -742,7 +734,10 @@ a {
 .modal.right .modal-dialog .modal-content .modal-header {
     border: 0;
 }
-.modal.right .modal-dialog .modal-content .modal-body .inner {
+.modal.right .modal-dialog .modal-body .btn-close {
+    display: none;
+}
+.modal.right .modal-dialog .modal-content .modal-body {
     height: 95vh;
     padding: 30px 90px;
     overflow: auto;
@@ -1009,7 +1004,7 @@ min-width: 215px;
 } */
 
 .navbar-toggler-icon {
-    background-image: url('../images/menubutton.png');
+    background-image: url("../images/menubutton.758b686c3288.png");
 }
 .services__List{
     display: flex;
@@ -1067,7 +1062,7 @@ min-width: 215px;
         position: absolute;
         width: 20px;
         height: 4px;
-        background-image: url('../images/navline.png');
+        background-image: url("../images/navline.6b8dd7aba279.png");
 
     }
     .navwithicons .nav-item{
@@ -1134,9 +1129,9 @@ min-width: 215px;
         margin-bottom: 20px;
     }
 
-    .footerBottom{
-        margin: 0px;
-    }
+.footerBottom{
+    margin: 0px;
+}
     .footerInner {
         padding: 60px 22px;
     }
@@ -1157,9 +1152,9 @@ min-width: 215px;
     .partners{
         padding: 80px 0px;
     }
-    .contact__Box {
-        height: 517px;
-    }
+.contact__Box {
+    height: 517px;
+}
     .heroSection__Img {
         display: none;
     }
@@ -1214,17 +1209,6 @@ min-width: 215px;
         display: inline-block;
         margin-bottom: 30px;
     }
-    .modal.right .modal-dialog .modal-content .modal-body .inner {
-        height: 95vh;
-        padding: 30px 40px;
-        overflow: auto;
-    }
-    .modal.right .modal-dialog .modal-content .modal-body h1 {
-        font-size: 30px;
-        color: #012E71;
-        font-weight: 600;
-        margin-bottom: 50px;
-    }
 }
 @media screen and (max-width:767px) {
     .footerBottom__Social {
@@ -1259,7 +1243,7 @@ min-width: 215px;
         font-size: 18px;
     }
     .navbar-nav{
-        background-image: url('../images/navcurve.png');
+        background-image: url("../images/navcurve.cec375261755.png");
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
@@ -1408,38 +1392,7 @@ min-width: 215px;
     .partners span {
         height: 110px;
     }
-    .modal.right .modal-dialog {
-        max-width: 100%;
-    }
-    .modal.right .modal-dialog .modal-content .modal-body .inner {
-        height: 540px;
-        padding: 30px 20px;
-    }
-    .modal.right .modal-dialog {
-        position: absolute;
-        bottom: 0;
-    }
-    .modal.right .modal-dialog .modal-content {
-        border-radius: 40px 40px 0 0;
-    }
-    .modal.right .modal-dialog .modal-body .btn-close {
-        display: none;
-    }
-    .modal.right .modal-dialog .modal-footer {
-        display: block !important;
-    }    
-    .modal.right .modal-dialog .modal-footer .btn-close {
-        position: static;
-        background: none;
-        color: #211E29;
-        font-size: 20px;
-        opacity: 1;
-        font-weight: 600;
-        width: 94%;
-        height: auto;
-        border-radius: 25px;
-        border: 2px solid #FFC450;
-    }
+    
 }
 
 @media screen and (max-width:1700px) {
