@@ -1,8 +1,8 @@
 /* imports */
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
-@import url(bootstrap.min.css);
-@import url(variables.css);
-@import url(fonts.css);
+@import url("bootstrap.min.edf0779261db.css");
+@import url("variables.e95f75fae455.css");
+@import url("fonts.21c66b9e6359.css");
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
 
 body {
@@ -238,62 +238,62 @@ a {
     color: var(--pink);
 }
 .services__List a.service1 {
-    background-image: url(../images/service1White.png);
+    background-image: url("../images/service1White.17bfbee9f453.png");
     background-position: center;
     width: 320px;
 }
 .services__List a.service1:hover {
-    background-image: url(../images/service1Blue.png);
+    background-image: url("../images/service1Blue.ad736ce4178e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service2 {
-    background-image: url(../images/service2White.png);
+    background-image: url("../images/service2White.f20de4f47f4c.png");
     background-position: center;
     width: 480px;
 }
 .services__List a.service2:hover {
-    background-image: url(../images/service2Blue.png);
+    background-image: url("../images/service2Blue.c51508ef3b7e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service3 {
-    background-image: url(../images/service3White.png);
+    background-image: url("../images/service3White.9a6c41021207.png");
     background-position: center;
     width: 390px;
 }
 .services__List a.service3:hover {
-    background-image: url(../images/service3Blue.png);
+    background-image: url("../images/service3Blue.09d29c1851b2.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service4 {
-    background-image: url(../images/service4White.png);
+    background-image: url("../images/service4White.a8d68d8fb6c0.png");
     background-position: center;
     width: 230px;
 }
 .services__List a.service4:hover {
-    background-image: url(../images/service4Blue.png);
+    background-image: url("../images/service4Blue.3966ccebe87c.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service5 {
-    background-image: url(../images/service1White.png);
+    background-image: url("../images/service1White.17bfbee9f453.png");
     background-position: center;
     width: 320px;
 }
 .services__List a.service5:hover {
-    background-image: url(../images/service1Blue.png);
+    background-image: url("../images/service1Blue.ad736ce4178e.png");
     background-position: center;
     color: var(--white);
 }
 .services__List a.service6 {
-    background-image: url(../images/service2White.png);
+    background-image: url("../images/service2White.f20de4f47f4c.png");
     background-position: center;
     width: 480px;
 }
 .services__List a.service6:hover {
-    background-image: url(../images/service2Blue.png);
+    background-image: url("../images/service2Blue.c51508ef3b7e.png");
     background-position: center;
     color: var(--white);
 }
@@ -329,7 +329,7 @@ a {
     position: relative;
     top: -40px;
     height: 700px;
-    background-image: url(../images/serviceFullImg.png);
+    background-image: url("../images/serviceFullImg.afc94b131d33.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -528,7 +528,7 @@ a {
 .collpase .accordion-item .accordion-header .accordion-button.collapsed::after {
     position: absolute;
     content: "";
-    background-image: url(../images/plusIcon.svg);
+    background-image: url("../images/plusIcon.7f9c44fea3fc.svg");
     background-repeat: no-repeat;
     background-size: 25px;
     width: 30px;
@@ -536,7 +536,7 @@ a {
     right: 30px;
 }
 .collpase .accordion-item .accordion-header .accordion-button::after {
-    background-image: url(../images/minusIcon.svg);
+    background-image: url("../images/minusIcon.004abf92f43a.svg");
     position: var(--absolute);
     right: 30px;
 }
@@ -557,7 +557,7 @@ a {
     padding: 0 30px 0;
 }
 .collpase .accordion-collapse .accordion-body {
-    background-image: url(../images/reportingInnerImg.jpeg);
+    background-image: url("../images/reportingInnerImg.e661a80ef93d.jpeg");
     /* background-color: var(--primary); */
     /* background-blend-mode: darken; */
     background-size: cover;
@@ -1009,7 +1009,7 @@ min-width: 215px;
 } */
 
 .navbar-toggler-icon {
-    background-image: url('../images/menubutton.png');
+    background-image: url("../images/menubutton.758b686c3288.png");
 }
 .services__List{
     display: flex;
@@ -1067,7 +1067,7 @@ min-width: 215px;
         position: absolute;
         width: 20px;
         height: 4px;
-        background-image: url('../images/navline.png');
+        background-image: url("../images/navline.6b8dd7aba279.png");
 
     }
     .navwithicons .nav-item{
@@ -1259,7 +1259,7 @@ min-width: 215px;
         font-size: 18px;
     }
     .navbar-nav{
-        background-image: url('../images/navcurve.png');
+        background-image: url("../images/navcurve.cec375261755.png");
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: contain;
@@ -1435,10 +1435,8 @@ min-width: 215px;
         font-size: 20px;
         opacity: 1;
         font-weight: 600;
-        width: 94%;
-        height: auto;
-        border-radius: 25px;
-        border: 2px solid #FFC450;
+        width: 100%;
+        border: 1px solid #FFC450;
     }
 }
 
