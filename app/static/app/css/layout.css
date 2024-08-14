@@ -1449,3 +1449,6 @@ min-width: 215px;
     
 }
 
+.modal-backdrop {
+    background-color: rgba(37, 50, 148, 0.9);
+}
